@@ -1,0 +1,67 @@
+/* Global styling */
+.root {
+    -fx-background-color: white;
+    -fx-font-family: Arial,Neon Glow;
+}
+
+.tab-pane {
+    -fx-background-color: #101010;
+}
+
+.tab {
+    -fx-font-size: 14px;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+.tab:selected {
+    -fx-background-color: #0056b3;
+}
+
+.tab-pane > .tab-header-area > .tab-bar {
+    -fx-background-color: #007bff;
+}
+
+/* Login/Register Form Styling */
+.vbox {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20;
+    -fx-spacing: 20;
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #007bff;
+}
+
+.button {
+    -fx-pref-width: 250px;
+    -fx-padding: 10px;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.image-view {
+    -fx-padding: 10;
+}
